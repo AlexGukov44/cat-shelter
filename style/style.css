@@ -92,3 +92,18 @@ body {
     content: '-';
     margin-right: 8px;
 }
+
+
+/* Медиа-запрос для планшета */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+/* Медиа-запрос для мобильных устройств */
+@media (max-width: 767px) {
+    .grid {
+      grid-template-columns: 1fr;
+    }
+  }
