@@ -112,5 +112,8 @@ body {
     .main {
       flex-direction: column-reverse;
     }
+    h1 {
+        font-size: 40px;
+    }
 }
   
