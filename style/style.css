@@ -97,13 +97,20 @@ body {
 /* Медиа-запрос для планшета */
 @media (min-width: 768px) and (max-width: 1023px) {
     .grid {
-      grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
-  }
+}
   
 /* Медиа-запрос для мобильных устройств */
 @media (max-width: 767px) {
     .grid {
       grid-template-columns: 1fr;
     }
-  }
+}
+  
+@media (max-width: 768px) {
+    .main {
+      flex-direction: column-reverse;
+    }
+}
+  
